@@ -1,0 +1,85 @@
+.wpmt-language-switcher {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.wpmt-language-switcher .language-item {
+    padding: 8px 16px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    background: transparent;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.wpmt-language-switcher .language-item:hover {
+    background: #f5f5f5;
+    border-color: #ccc;
+}
+
+.wpmt-language-switcher .language-item.active {
+    background: #007bff;
+    color: #fff;
+    border-color: #0056b3;
+}
+
+#wpmt-lang-select {
+    width: 100%;
+    max-width: 200px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    color: #333;
+}
+
+@media screen and (max-width: 480px) {
+    .wpmt-language-switcher {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .wpmt-language-switcher .language-item {
+        width: 100%;
+        text-align: center;
+    }
+
+    #wpmt-lang-select {
+        max-width: 100%;
+    }
+}
+
+/* Loading animasyonu */
+.wpmt-loading {
+    position: relative;
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.wpmt-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #007bff;
+    border-radius: 50%;
+    animation: wpmt-spin 1s linear infinite;
+}
+
+@keyframes wpmt-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

@@ -1,0 +1,93 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Multilang AI Translator 1.0.0\n"
+"POT-Creation-Date: 2024-03-19 10:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: wp-multilang-ai-translator\n"
+
+#: admin/class-admin.php:45
+msgid "WP Multilang AI Translator Settings"
+msgstr ""
+
+#: admin/class-admin.php:46
+msgid "AI Translation"
+msgstr ""
+
+#: admin/class-admin.php:85
+msgid "HuggingFace API Key"
+msgstr ""
+
+#: admin/class-admin.php:92
+msgid "Available Languages"
+msgstr ""
+
+#: admin/class-admin.php:99
+msgid "Save Settings"
+msgstr ""
+
+#: includes/class-translator.php:56
+msgid "Translation failed. Please try again."
+msgstr ""
+
+#: includes/class-translator.php:89
+msgid "API key is missing"
+msgstr ""
+
+#: public/class-public.php:78
+msgid "Change Language"
+msgstr ""
+
+#: public/class-public.php:120
+msgid "Invalid language selection"
+msgstr ""
+
+#: public/class-public.php:145
+msgid "Original language"
+msgstr ""
+
+#: public/class-public.php:146
+msgid "Select your language"
+msgstr ""
+
+# Error messages
+msgid "Translation service is not available"
+msgstr ""
+
+msgid "Please configure the API key in settings"
+msgstr ""
+
+msgid "Content translation in progress"
+msgstr ""
+
+# Language names
+msgid "English"
+msgstr ""
+
+msgid "Turkish"
+msgstr ""
+
+msgid "Spanish"
+msgstr ""
+
+msgid "French"
+msgstr ""
+
+msgid "German"
+msgstr ""
+
+msgid "Russian"
+msgstr ""
+
+msgid "Chinese"
+msgstr ""
+
+msgid "Japanese"
+msgstr ""

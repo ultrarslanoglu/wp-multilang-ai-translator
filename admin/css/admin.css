@@ -1,0 +1,61 @@
+/* Bu dosya, eklentinin yönetici arayüzüne özgü stilleri içermektedir. */
+
+.wpmt-admin-wrap {
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.wpmt-admin-header {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.wpmt-admin-header h1 {
+    color: #23282d;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Form Stilleri */
+.wpmt-form-table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.wpmt-form-table th {
+    padding: 20px 10px 20px 0;
+    width: 200px;
+    text-align: left;
+}
+
+.wpmt-form-table td {
+    padding: 15px 10px;
+}
+
+.wpmt-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.wpmt-checkbox-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    margin: 10px 0;
+}
+
+/* Buton Stilleri */
+.wpmt-button {
+    padding: 8px 16px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor:
