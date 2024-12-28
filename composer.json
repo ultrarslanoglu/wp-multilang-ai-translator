@@ -1,0 +1,16 @@
+{
+    "name": "ultrarslanoglu/wp-multilang-ai-translator",
+    "description": "A multi-language translator plugin for WordPress.",
+    "type": "wordpress-plugin",
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/translation": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WpMultilangAiTranslator\\": "includes/"
+        }
+    }
+}
