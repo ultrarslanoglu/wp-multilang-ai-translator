@@ -3,7 +3,7 @@
         'name' => 'ultrarslanoglu/wp-multilang-ai-translator',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'afaf2f890555d71364ff66a83f627bcfe945111d',
+        'reference' => 'fd0156a046ee10ac281b38bdbf3c2a25db01c7de',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -172,7 +172,7 @@
         'ultrarslanoglu/wp-multilang-ai-translator' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'afaf2f890555d71364ff66a83f627bcfe945111d',
+            'reference' => 'fd0156a046ee10ac281b38bdbf3c2a25db01c7de',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
